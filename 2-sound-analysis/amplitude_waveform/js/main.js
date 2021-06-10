@@ -2,7 +2,7 @@ let audio, amp
 console.clear();
 
 function preload() {
-  audio = loadSound('../sounds/Tak_Bobby_Richards.mp3')
+  audio = loadSound('../../sounds/Tak_Bobby_Richards.mp3')
   console.log(audio)
 }
 
@@ -41,3 +41,6 @@ function draw() {
   }
   
 }
+
+
+
